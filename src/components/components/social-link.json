@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_social_links",
+  "info": {
+    "displayName": "socialLink",
+    "icon": "exit"
+  },
+  "options": {},
+  "attributes": {
+    "socialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "youtube",
+        "twitter",
+        "facebook",
+        "whatsapp"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

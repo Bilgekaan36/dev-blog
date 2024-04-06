@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "store",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "callToAction": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.link",
+      "required": true
+    }
+  }
+}
